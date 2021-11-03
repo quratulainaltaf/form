@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/44df29ccaf.js" crossorigin="anonymous"></script>
+    <title>Google Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <main id="container">
+        <form action="">
+            <!-- logo image -->
+            <div class="logo">
+                <img src="google-logo.png" alt="">
+            </div>
+            <!-- Create Account -->
+            <div class="create">
+                <h3>Create your Google Account</h3>
+            </div>
+            <!-- wrap -->
+            <div id="wrapper">
+                <!-- name field below -->
+                <div class="first-field">
+                    <!-- fname -->
+                    <div class="user-input">
+                        <input type="text" id="Fname" class="input-field" required>
+                        <label for="Fname" class="valueable">First Name</label>
+                    </div>
+                    <div class="user-input">
+                        <!-- lname -->
+                        <input type="text" id="Lname" class="input-field" required>
+                        <label for="Lname" class="valueable">Last Name</label>
+                        <!-- user input end -->
+                    </div>
+                </div>
+                <!-- email -->
+                <div class="user-input">
+                    <input type="email" id="email" class="input-field" required>
+                    <label for="email" class="valueable">Username</label>
+                    <span>@gmail.com</span>
+                    <div class="required">
+                        <p>You can use letters, numbers & periods</p>
+                    </div>
+                    <div class="requiredTwo">
+                        <p>Create a new gmail address instead</p>
+                    </div>
+                </div>
+                <!-- password field below -->
+                <div class="third-field">
+                    <!-- password -->
+                    <div class="user-input">
+                        <input type="password" id="code" minlength="8" class="input-field" required>
+                        <label for="code" class="valueable">Enter Password</label>
+                    </div>
+                    <div class="user-input">
+                        <!-- confirm password -->
+                        <input type="password" id="confirm" minlength="8" class="input-field" required>
+                        <label for="confirm" class="valueable">Confirm</label>
+                    </div>
+                    <i class="fas fa-eye-slash"></i>
+                </div>
+                <div class="requiredThree">
+                    <p>Use 8 or more characters with a mix of letters, numbers & symbols</p>
+                </div>
+                <div class="submission">
+                    <a href="#">Sign in instead</a>
+                    <button class="submit">Next</button>
+                </div>
+            </div>
+            <div class="account-moto">
+                <img class="account-img" src="google-account.png" alt="">
+                <div class="moto">
+                    <p>One account. All of Google working for you.</p>
+                </div>
+            </div>
+        </form>
+        <div class="faqs">
+            <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Terms</a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
